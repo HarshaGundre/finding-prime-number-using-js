@@ -2,6 +2,15 @@
 <html>
 <head>
 <title>Prime Number Generator</title>
+<style>
+ body{
+ background-color:lightblue;
+}
+ table{
+ background-color:#f2b305;
+ 
+ }
+</style>
 <script>	
  function is_Prime(num){
   if(num==1)
@@ -37,7 +46,7 @@
  <body>
   <h1 align="center">Prime Number Generator</h1>
   <form name="frm1">
-  <table border="1" cellpadding="5px" cellspacing="0" width="60%" align="center">
+  <table border="0" cellpadding="5px" cellspacing="0" width="60%" align="center">
   <tr>
     <td>Start</td>
     <td><input type="number" min="1" max="1000" id="t1"/> </td>							
